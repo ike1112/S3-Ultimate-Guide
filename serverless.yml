@@ -7,7 +7,7 @@ provider:
   runtime: nodejs14.x
   lambdaHashingVersion: 20201221
   stage: dev
-  region: ap-south-1
+  region: us-east-1
   apiGateway:
     shouldStartNameWithService: true
   iam:

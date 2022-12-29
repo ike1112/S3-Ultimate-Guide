@@ -1,5 +1,5 @@
 const AWS = require('aws-sdk');
-const s3 = new AWS.S3({ signatureVersion: 'v4', region: 'ap-south-1' });
+const s3 = new AWS.S3({ signatureVersion: 'v4', region: 'us-east-1' });
 exports.handler = async (event) => {
 	const body = JSON.parse(event.body);
 

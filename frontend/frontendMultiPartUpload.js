@@ -3,7 +3,7 @@ document.getElementById('multipartInputBtn').addEventListener('click', async () 
 	const file = multipartInput_fileInput.files[0];
 	const fileName = file.name;
 	const fileSize = file.size;
-	const url = `https://68qb5fre0e.execute-api.ap-south-1.amazonaws.com/dev`;
+	const url = `https://68qb5fre0e.execute-api.us-east-1.amazonaws.com/dev`;
 
 	try {
 		let res = await axios.post(`${url}/getUploadId`, { fileName: fileName });

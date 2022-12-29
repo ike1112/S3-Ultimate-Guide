@@ -3,7 +3,7 @@ document.getElementById('presignedUrlBtn').addEventListener('click', () => {
 	const file = presignedUrl_fileInput.files[0];
 	const fileName = file.name;
 
-	const url = `https://68qb5fre0e.execute-api.ap-south-1.amazonaws.com/dev/getSignedUrl`;
+	const url = `https://68qb5fre0e.execute-api.us-east-1.amazonaws.com/dev/getSignedUrl`;
 	
 
 	axios

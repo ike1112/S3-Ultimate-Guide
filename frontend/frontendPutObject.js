@@ -4,7 +4,7 @@ document.getElementById('putObjectBtn').addEventListener('click', () => {
 	const fileName = file.name;
 
 	const reader = new FileReader();
-	const url = `https://68qb5fre0e.execute-api.ap-south-1.amazonaws.com/dev/putObject`;
+	const url = `https://68qb5fre0e.execute-api.us-east-1.amazonaws.com/dev/putObject`;
 	const config = {
 		onUploadProgress: (progressEvent) =>
 			console.log(parseInt(Math.round(progressEvent.loaded / progressEvent.total * 100)))
